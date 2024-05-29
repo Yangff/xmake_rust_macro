@@ -4,6 +4,8 @@ add_requires("cargo::bind", {
     }
 })
 
+set_arch("x86_64-unknown-linux-gnu")
+
 target("rsystem")
     add_files("bind/src/main.rs")
     add_packages("cargo::bind")
