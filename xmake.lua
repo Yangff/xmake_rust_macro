@@ -8,5 +8,5 @@ set_arch("x86_64-unknown-linux-gnu")
 
 target("bind")
     set_kind("binary")
-    add_files("bind/main.rs")
+    add_files("bind/src/main.rs")
     add_packages("cargo::bind")
